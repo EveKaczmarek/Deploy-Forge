@@ -1,0 +1,4 @@
+﻿name,prompt,negative_prompt
+Pony Quality (NEG),,"monochrome, greyscale, score_4, score_5, score_6, worst quality, low quality, censored"
+Pony Quality (PO),"BREAK score_9, score_7_up, source_anime",
+Pony Quality M3,"\(3d, blender \(medium)\:0.8, (damao_yu:0.6))",
