@@ -37,6 +37,8 @@ echo Applying settings...
 copy "%DATA%\basic-settings\config.json" "%WEBUI%\"
 del "%WEBUI%\styles_integrated.csv"
 copy "%DATA%\basic-settings\styles_pony.csv" "%WEBUI%\styles_integrated.csv"
+del "%WEBUI%\webui-user.bat"
+copy "%DATA%\basic-settings\webui-user.bat" "%WEBUI%\webui-user.bat"
 
 echo Done.
 pause

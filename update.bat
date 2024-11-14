@@ -3,6 +3,9 @@ rem Taken from lllyasviel's one-click package
 
 call environment.bat
 
+git reset --hard
+git pull
+
 git -C "%~dp0webui" pull 2>NUL
 if %ERRORLEVEL% == 0 goto :done
 
