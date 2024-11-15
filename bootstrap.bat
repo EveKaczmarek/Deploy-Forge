@@ -1,5 +1,5 @@
-rem Taken from lllyasviel's one-click package
 @echo off
+rem Taken from lllyasviel's one-click package
 call environment.bat
 
 set SYSTEM=%~dp0system

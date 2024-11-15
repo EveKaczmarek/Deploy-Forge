@@ -1,7 +1,10 @@
-rem Taken from lllyasviel's one-click package
 @echo off
+rem Taken from lllyasviel's one-click package
 
 call environment.bat
+
+git pull 2>NUL
+if %ERRORLEVEL% == 0 goto :done
 
 git reset --hard
 git pull
